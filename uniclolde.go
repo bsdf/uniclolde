@@ -30,6 +30,8 @@ func MathBold(str string) string {
 			buf.WriteRune(0x1D3BF + c)
 		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D3B9 + c)
+		} else if c > 47 && c < 58 {
+			buf.WriteRune(0x1D79E + c)
 		} else {
 			buf.WriteRune(c)
 		}
@@ -78,6 +80,8 @@ func SansSerif(str string) string {
 			buf.WriteRune(0x1D55F + c)
 		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D559 + c)
+		} else if c > 47 && c < 58 {
+			buf.WriteRune(0x1D7B2 + c)
 		} else {
 			buf.WriteRune(c)
 		}
@@ -94,6 +98,8 @@ func SansSerifBold(str string) string {
 			buf.WriteRune(0x1D593 + c)
 		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D58D + c)
+		} else if c > 47 && c < 58 {
+			buf.WriteRune(0x1D7BC + c)
 		} else {
 			buf.WriteRune(c)
 		}
@@ -142,6 +148,8 @@ func Monospace(str string) string {
 			buf.WriteRune(0x1D62F + c)
 		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D629 + c)
+		} else if c > 47 && c < 58 {
+			buf.WriteRune(0x1D7C6 + c)
 		} else {
 			buf.WriteRune(c)
 		}
