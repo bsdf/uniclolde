@@ -28,7 +28,7 @@ func MathBold(str string) string {
 	for _, c := range str {
 		if c > 64 && c < 91 {
 			buf.WriteRune(0x1D3BF + c)
-		} else if c > 96 && c < 122 {
+		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D3B9 + c)
 		} else {
 			buf.WriteRune(c)
@@ -44,7 +44,7 @@ func MathItalic(str string) string {
 	for _, c := range str {
 		if c > 64 && c < 91 {
 			buf.WriteRune(0x1D3F3 + c)
-		} else if c > 96 && c < 122 {
+		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D3ED + c)
 		} else {
 			buf.WriteRune(c)
@@ -60,7 +60,7 @@ func MathBoldItalic(str string) string {
 	for _, c := range str {
 		if c > 64 && c < 91 {
 			buf.WriteRune(0x1D427 + c)
-		} else if c > 96 && c < 122 {
+		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D421 + c)
 		} else {
 			buf.WriteRune(c)
@@ -76,7 +76,7 @@ func SansSerif(str string) string {
 	for _, c := range str {
 		if c > 64 && c < 91 {
 			buf.WriteRune(0x1D55F + c)
-		} else if c > 96 && c < 122 {
+		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D559 + c)
 		} else {
 			buf.WriteRune(c)
@@ -92,7 +92,7 @@ func SansSerifBold(str string) string {
 	for _, c := range str {
 		if c > 64 && c < 91 {
 			buf.WriteRune(0x1D593 + c)
-		} else if c > 96 && c < 122 {
+		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D58D + c)
 		} else {
 			buf.WriteRune(c)
@@ -108,7 +108,7 @@ func SansSerifItalic(str string) string {
 	for _, c := range str {
 		if c > 64 && c < 91 {
 			buf.WriteRune(0x1D5C7 + c)
-		} else if c > 96 && c < 122 {
+		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D5C1 + c)
 		} else {
 			buf.WriteRune(c)
@@ -124,7 +124,7 @@ func SansSerifBoldItalic(str string) string {
 	for _, c := range str {
 		if c > 64 && c < 91 {
 			buf.WriteRune(0x1D5FB + c)
-		} else if c > 96 && c < 122 {
+		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D5F5 + c)
 		} else {
 			buf.WriteRune(c)
@@ -140,7 +140,7 @@ func Monospace(str string) string {
 	for _, c := range str {
 		if c > 64 && c < 91 {
 			buf.WriteRune(0x1D62F + c)
-		} else if c > 96 && c < 122 {
+		} else if c > 96 && c < 123 {
 			buf.WriteRune(0x1D629 + c)
 		} else {
 			buf.WriteRune(c)
